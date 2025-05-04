@@ -10,6 +10,7 @@
 }
 body {
     background-color:  hsl(0, 0%, 98%);
+	color: rgb(235, 235, 28);
 }
 nav{
 	height: 60px;
