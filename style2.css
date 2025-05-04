@@ -9,8 +9,7 @@
     scroll-behavior: smooth;
 }
 body {
-    background-color:  hsl(0, 0%, 98%);
-	color: rgb(235, 235, 28);
+    background-color:  hsl(2, 9%, 98%);
 }
 nav{
 	height: 60px;
