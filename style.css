@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     color:red;
-    border-color:red;
 }
 
 body{
@@ -17,7 +16,7 @@ body{
 .header{
     border-bottom: 2px solid rgb(255, 255, 255);
     height: 80px;
-    color: rgb(255, 255, 255)    ;
+    color: (255, 255, 255)    ;
 }
 
 .header__container{
