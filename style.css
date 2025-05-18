@@ -9,12 +9,13 @@ body{
     min-height: 99vh;
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
 }
 
 .header{
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(255, 255, 255);
     height: 80px;
+    color: rgb(255, 255, 255)    ;
 }
 
 .header__container{
@@ -26,6 +27,7 @@ body{
     justify-content: space-between;
     padding: 0 20px;
     align-items: center;
+    transform: translateY(-164%);
 }
 
 .logo{
@@ -43,8 +45,8 @@ body{
     margin-right: 20px;
 }
 .menu__item:hover{
-    border-bottom: 1px solid rgb(227, 214, 29);
-    color: rgb(235, 235, 28);
+    border-bottom: 1px solid rgb(197, 192, 44);
+    color: rgb(197, 192, 44);
     transition: 1000ms;
 }
 
@@ -56,14 +58,14 @@ body{
 
 
 .contacts{
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     margin-top: 40px;
     border-radius: 20px;
     padding: 30px;
     width: 400px;
 }
 .contacts:nth-child(2){
-    transform: translateY(50%)
+    transform: translateY(20%)
 }
 .main__container{
     display: flex;
