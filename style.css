@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:blue;
 }
 
 body{
@@ -10,17 +9,14 @@ body{
     min-height: 99vh;
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(28, 121, 150);
+    color: rgb(255, 255, 255);
 }
 
 .header{
     border-bottom: 2px solid rgb(28, 121, 150);
     height: 80px;
-<<<<<<< HEAD
-    color: rgb(28, 121, 150)    ;
-=======
-    color: (255, 255, 255)    ;
->>>>>>> 326c82197b361f6b6a8fab9046b818bbc8f273f7
+    color: rgb(28, 121, 150);
+    color: (255, 255, 255);
 }
 
 .header__container{
@@ -53,9 +49,12 @@ body{
     border-bottom: 1px solid rgb(197, 192, 44);
     color: rgb(197, 192, 44);
     transition: 1000ms;
-    color:blue;
-}
 
+}
+a{
+    text-decoration: none ;
+    color : white   
+}
 .main{
     max-width: 1920px;
     width: 1010px;
@@ -64,7 +63,7 @@ body{
 
 
 .contacts{
-    border: 2px solid rgb(28, 121, 150);
+    border: 2px solid rgb(255, 255, 255);
     margin-top: 40px;
     border-radius: 20px;
     padding: 30px;
