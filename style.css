@@ -76,3 +76,9 @@ a{
     display: flex;
     justify-content: space-between;
 }
+
+.footer{
+    border-bottom: 2px solid rgb(28, 121, 150);
+    height: 170px;
+
+}
